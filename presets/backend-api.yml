@@ -1,0 +1,15 @@
+name: backend-api
+title: API / Backend
+description: >
+  Stack para desenvolvimento e manutenção de uma API HTTP.
+owner: "@lucas"
+skills:
+  core:
+    - caveman
+    - api-contract-review
+    - postman-api
+    - security-scan
+  optional:
+    - sonarqube-review
+    - sentry-monitoring
+    - terraform-iac

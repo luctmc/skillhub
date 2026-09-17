@@ -1,0 +1,15 @@
+# Preset (stack de skills recomendadas para um tipo de projeto).
+# Regras: >= 3 skills no total, todo nome em "skills" deve existir no registry
+# e não pode estar deprecated/rejected. Validado por "npm run validate".
+name: nome-do-preset            # kebab-case, também é o nome do arquivo (sem .yml)
+title: Título Legível            # aparece no SKILLS-INDEX.md
+description: >
+  Uma frase descrevendo para que tipo de projeto este preset serve.
+owner: "@seu-usuario"
+skills:
+  core:                          # skills que praticamente todo projeto deste tipo usa
+    - nome-da-skill-1
+    - nome-da-skill-2
+    - nome-da-skill-3
+  optional:                      # skills úteis dependendo do projeto específico
+    - nome-da-skill-4

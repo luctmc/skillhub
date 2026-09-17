@@ -1,0 +1,460 @@
+[
+  {
+    "id": "accessibility-audit",
+    "type": "catalog",
+    "path": "catalog/accessibility-audit.md",
+    "name": "accessibility-audit",
+    "description": "Run comprehensive accessibility audits combining axe-core and jsx-a11y against WCAG 2.1 AA.",
+    "category": "quality",
+    "tags": [
+      "accessibility",
+      "frontend",
+      "testing"
+    ],
+    "status": "approved",
+    "source": "community",
+    "repository": "https://github.com/airowe/claude-a11y-skill",
+    "documentation": "https://github.com/airowe/claude-a11y-skill/blob/main/README.md",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "auditar acessibilidade antes de um release",
+      "revisar um componente novo quanto a WCAG",
+      "investigar reclamação de usuário sobre leitor de tela"
+    ]
+  },
+  {
+    "id": "browser-testing",
+    "type": "catalog",
+    "path": "catalog/browser-testing.md",
+    "name": "browser-testing",
+    "description": "Browser automation and end-to-end testing via the official Playwright MCP server by Microsoft.",
+    "category": "testing",
+    "tags": [
+      "e2e",
+      "browser",
+      "frontend",
+      "web"
+    ],
+    "status": "recommended",
+    "source": "vendor",
+    "repository": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright",
+    "license": "Apache-2.0",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "cobrir fluxos críticos de uma aplicação web",
+      "investigar um teste e2e instável (flaky)",
+      "tirar screenshots automatizados de páginas"
+    ]
+  },
+  {
+    "id": "caveman",
+    "type": "catalog",
+    "path": "catalog/caveman.md",
+    "name": "caveman",
+    "description": "Explain a codebase in compressed, low-filler language to save tokens while agents build context.",
+    "category": "documentation",
+    "tags": [
+      "codebase",
+      "onboarding",
+      "writing"
+    ],
+    "status": "recommended",
+    "source": "community",
+    "repository": "https://github.com/JuliusBrussee/caveman",
+    "documentation": "https://github.com/JuliusBrussee/caveman#readme",
+    "license": "MIT",
+    "agents": [
+      "claude-code",
+      "codex",
+      "gemini-cli"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "entender uma codebase desconhecida rapidamente",
+      "reduzir tokens gastos em respostas verbosas",
+      "preparar contexto antes de refatorar"
+    ]
+  },
+  {
+    "id": "commit-workflow",
+    "type": "catalog",
+    "path": "catalog/commit-workflow.md",
+    "name": "commit-workflow",
+    "description": "Streamlined commands for git commit, push and pull request creation workflows.",
+    "category": "version-control",
+    "tags": [
+      "planning"
+    ],
+    "status": "recommended",
+    "source": "anthropic",
+    "repository": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "padronizar mensagens de commit no time",
+      "abrir PR com descrição gerada a partir do diff",
+      "agilizar o fluxo git do dia a dia"
+    ]
+  },
+  {
+    "id": "figma-integration",
+    "type": "catalog",
+    "path": "catalog/figma-integration.md",
+    "name": "figma-integration",
+    "description": "Access Figma design files, extract component information and sync design tokens with code.",
+    "category": "design",
+    "tags": [
+      "frontend",
+      "ux"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/figma/mcp-server-guide",
+    "documentation": "https://github.com/figma/mcp-server-guide#readme",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "implementar um componente a partir de um design no Figma",
+      "extrair tokens de design (cores, spacing, tipografia)",
+      "manter design e código sincronizados"
+    ]
+  },
+  {
+    "id": "linear-issues",
+    "type": "catalog",
+    "path": "catalog/linear-issues.md",
+    "name": "linear-issues",
+    "description": "Create and manage Linear issues, update status and link work items to code changes.",
+    "category": "productivity",
+    "tags": [
+      "planning"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/linear/linear",
+    "documentation": "https://linear.app/docs",
+    "license": "unknown",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "criar uma issue a partir de um bug encontrado durante o desenvolvimento",
+      "atualizar o status de uma tarefa ao concluir um PR",
+      "linkar um commit a um item do board"
+    ]
+  },
+  {
+    "id": "motion-design",
+    "type": "catalog",
+    "path": "catalog/motion-design.md",
+    "name": "motion-design",
+    "description": "Apply universal motion design principles — timing, easing, choreography — adapted from animation fundamentals for UI.",
+    "category": "design",
+    "tags": [
+      "motion",
+      "animation",
+      "frontend",
+      "accessibility"
+    ],
+    "status": "trial",
+    "source": "community",
+    "repository": "https://github.com/lottiefiles/motion-design-skill",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "definir padrões de animação de um produto",
+      "revisar timing e easing de transições existentes",
+      "garantir suporte a prefers-reduced-motion"
+    ]
+  },
+  {
+    "id": "notion-workspace",
+    "type": "catalog",
+    "path": "catalog/notion-workspace.md",
+    "name": "notion-workspace",
+    "description": "Search Notion pages, create and update documents, and manage workspace content from the agent.",
+    "category": "productivity",
+    "tags": [
+      "writing"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/makenotion/claude-code-notion-plugin",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "gerar ou atualizar documentação diretamente no Notion",
+      "buscar contexto em páginas existentes do workspace",
+      "criar um registro de decisão (ADR) no Notion"
+    ]
+  },
+  {
+    "id": "postman-api",
+    "type": "catalog",
+    "path": "catalog/postman-api.md",
+    "name": "postman-api",
+    "description": "Full API lifecycle management: sync collections, generate clients, run test suites against an API.",
+    "category": "testing",
+    "tags": [
+      "api",
+      "backend"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/Postman-Devrel/postman-claude-code-plugin",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "testar uma API a partir de uma collection existente",
+      "gerar cliente HTTP a partir de uma spec",
+      "validar contrato de API antes do deploy"
+    ]
+  },
+  {
+    "id": "security-scan",
+    "type": "catalog",
+    "path": "catalog/security-scan.md",
+    "name": "security-scan",
+    "description": "Deep vulnerability scanning of your own code with findings challenged before being reported, plus verified patch suggestions.",
+    "category": "security",
+    "tags": [
+      "code-review"
+    ],
+    "status": "approved",
+    "source": "anthropic",
+    "repository": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "escanear o repositório inteiro em busca de vulnerabilidades",
+      "revisar o diff de uma branch antes do merge",
+      "gerar patches sugeridos para findings de segurança"
+    ]
+  },
+  {
+    "id": "sentry-monitoring",
+    "type": "catalog",
+    "path": "catalog/sentry-monitoring.md",
+    "name": "sentry-monitoring",
+    "description": "Access Sentry error reports, analyze stack traces and correlate incidents with recent code changes.",
+    "category": "devops",
+    "tags": [
+      "monitoring",
+      "debugging"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/getsentry/plugin-claude",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "investigar um erro reportado em produção",
+      "correlacionar um incidente com um deploy recente",
+      "triagem de stack traces recorrentes"
+    ]
+  },
+  {
+    "id": "slack-workspace",
+    "type": "catalog",
+    "path": "catalog/slack-workspace.md",
+    "name": "slack-workspace",
+    "description": "Search Slack messages, access channels and read threads to bring team context into the agent.",
+    "category": "productivity",
+    "tags": [
+      "planning"
+    ],
+    "status": "trial",
+    "source": "vendor",
+    "repository": "https://github.com/slackapi/slack-mcp-plugin",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "buscar contexto de uma discussão passada no Slack",
+      "resumir uma thread longa antes de agir",
+      "checar se uma decisão já foi comunicada ao time"
+    ]
+  },
+  {
+    "id": "sonarqube-review",
+    "type": "catalog",
+    "path": "catalog/sonarqube-review.md",
+    "name": "sonarqube-review",
+    "description": "Automatically enforce SonarQube code quality and security rules in the agent coding loop.",
+    "category": "quality",
+    "tags": [
+      "code-review",
+      "linting"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/SonarSource/sonarqube-agent-plugins",
+    "license": "LGPL-3.0",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "revisar qualidade de código antes de abrir PR",
+      "aplicar padrões de segurança e code smells do time",
+      "integrar o agente ao SonarQube já usado no CI"
+    ]
+  },
+  {
+    "id": "stripe-integration",
+    "type": "catalog",
+    "path": "catalog/stripe-integration.md",
+    "name": "stripe-integration",
+    "description": "Assist with Stripe payments integration — API usage, webhooks, testing and common implementation patterns.",
+    "category": "development",
+    "tags": [
+      "api",
+      "backend"
+    ],
+    "status": "trial",
+    "source": "vendor",
+    "repository": "https://github.com/stripe/ai",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "integrar cobrança via Stripe em um projeto novo",
+      "depurar um webhook do Stripe",
+      "gerar código de teste para fluxo de pagamento"
+    ]
+  },
+  {
+    "id": "superdesign",
+    "type": "catalog",
+    "path": "catalog/superdesign.md",
+    "name": "superdesign",
+    "description": "Design or redesign frontend UI and marketing graphics using an infinite canvas workflow.",
+    "category": "design",
+    "tags": [
+      "frontend",
+      "prototype"
+    ],
+    "status": "trial",
+    "source": "community",
+    "repository": "https://github.com/superdesigndev/superdesign-skill",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "prototipar uma tela nova rapidamente",
+      "gerar variações visuais de um componente",
+      "criar peças de marketing simples"
+    ]
+  },
+  {
+    "id": "terraform-iac",
+    "type": "catalog",
+    "path": "catalog/terraform-iac.md",
+    "name": "terraform-iac",
+    "description": "Integrate with the Terraform ecosystem for Infrastructure as Code automation and validation.",
+    "category": "devops",
+    "tags": [
+      "terraform",
+      "cloud"
+    ],
+    "status": "trial",
+    "source": "vendor",
+    "repository": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform",
+    "license": "MPL-2.0",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "escrever ou revisar módulos Terraform",
+      "validar plano antes de aplicar infraestrutura",
+      "gerar documentação de um módulo existente"
+    ]
+  },
+  {
+    "id": "vercel-deploy",
+    "type": "catalog",
+    "path": "catalog/vercel-deploy.md",
+    "name": "vercel-deploy",
+    "description": "Manage Vercel deployments, check build status and inspect runtime logs from within the agent.",
+    "category": "devops",
+    "tags": [
+      "deployment",
+      "cloud"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/vercel/vercel-plugin",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "verificar status de um deploy no Vercel",
+      "investigar erro de build",
+      "consultar logs de runtime de uma função serverless"
+    ]
+  },
+  {
+    "id": "api-contract-review",
+    "type": "skill",
+    "path": "skills/api-contract-review/SKILL.md",
+    "name": "api-contract-review",
+    "description": "Review an HTTP API contract for breaking changes, inconsistent naming, missing error cases and pagination gaps. Use when reviewing an OpenAPI spec, a pull request that adds or changes endpoints, or before publishing a versioned API.\n",
+    "category": "quality",
+    "tags": [
+      "api",
+      "backend",
+      "code-review"
+    ],
+    "status": "approved",
+    "source": "internal",
+    "agents": [
+      "claude-code",
+      "universal"
+    ],
+    "owner": "@lucas",
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "revisar um PR que adiciona ou altera endpoints",
+      "validar uma spec OpenAPI antes de publicar",
+      "detectar breaking change antes de um release"
+    ]
+  }
+]

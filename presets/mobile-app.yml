@@ -1,0 +1,13 @@
+name: mobile-app
+title: App Mobile
+description: >
+  Stack para um app mobile novo ou em manutenção.
+owner: "@lucas"
+skills:
+  core:
+    - caveman
+    - accessibility-audit
+    - commit-workflow
+  optional:
+    - motion-design
+    - sentry-monitoring

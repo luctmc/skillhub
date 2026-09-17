@@ -1,0 +1,16 @@
+name: web-application
+title: Aplicação Web
+description: >
+  Stack padrão para uma aplicação web nova com frontend e backend.
+owner: "@lucas"
+skills:
+  core:
+    - caveman
+    - browser-testing
+    - accessibility-audit
+    - commit-workflow
+  optional:
+    - motion-design
+    - figma-integration
+    - superdesign
+    - sentry-monitoring

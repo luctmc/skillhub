@@ -1,0 +1,17 @@
+name: Skill problem
+description: Link quebrado, status desatualizado, comportamento diferente do esperado
+title: "[problem] "
+labels: ["bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Nome da skill
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: O que está errado
+    validations:
+      required: true

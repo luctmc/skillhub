@@ -1,0 +1,155 @@
+# SkillHub — Vocabulário controlado
+#
+# Esta é a única fonte de verdade para categorias, tags e status aceitos.
+# `npm run validate` falha se qualquer skill usar um valor fora daqui.
+# Para adicionar uma tag ou categoria nova, edite este arquivo NO MESMO PR
+# da skill que a introduz. Veja docs/taxonomy.md para as regras de uso.
+
+categories:
+  - id: ai-agents
+    label: AI Agents
+    description: Construir e operar agentes — prompts, skills, MCP, sub-agentes, evals, orquestração.
+  - id: automation
+    label: Automation
+    description: Executar trabalho repetitivo — scripts, scaffolding, migrações em lote, workflows.
+  - id: design
+    label: Design
+    description: UI/UX, design systems, visual, motion, branding, protótipos.
+  - id: development
+    label: Development
+    description: Escrever e refatorar código de aplicação — frameworks, linguagens, camada de dados.
+  - id: devops
+    label: DevOps
+    description: CI/CD, infraestrutura, containers, cloud, observabilidade, release.
+  - id: documentation
+    label: Documentation
+    description: Produzir documentação — READMEs, ADRs, API docs, explicação de codebase.
+  - id: productivity
+    label: Productivity
+    description: Trabalho que não é código — planejamento, escrita, comunicação, gestão de tarefas.
+  - id: quality
+    label: Quality
+    description: Julgar trabalho existente — code review, acessibilidade, performance, dívida técnica.
+  - id: research
+    label: Research
+    description: Investigar e sintetizar — exploração de codebase, spikes, comparação de alternativas.
+  - id: security
+    label: Security
+    description: AppSec, secrets, dependências, threat modeling, compliance.
+  - id: testing
+    label: Testing
+    description: Produzir e rodar testes — unitário, e2e, browser testing, fixtures, cobertura.
+  - id: version-control
+    label: Version Control
+    description: Git e GitHub — commits, branches, PRs, changelogs, releases.
+
+# Tags agrupadas por faceta. O agrupamento é só para organização do índice;
+# no front matter as tags ficam todas juntas em uma lista plana.
+tags:
+  tech:
+    - angular
+    - react
+    - nextjs
+    - vue
+    - dotnet
+    - nodejs
+    - python
+    - typescript
+    - tailwind
+    - sql
+    - docker
+    - kubernetes
+    - terraform
+  domain:
+    - frontend
+    - backend
+    - web
+    - mobile
+    - desktop
+    - api
+    - database
+    - data
+    - ai
+    - cloud
+    - cli
+  activity:
+    - accessibility
+    - animation
+    - architecture
+    - browser
+    - changelog
+    - codebase
+    - code-review
+    - debugging
+    - deployment
+    - dependencies
+    - documentation
+    - e2e
+    - i18n
+    - linting
+    - migration
+    - monitoring
+    - motion
+    - onboarding
+    - performance
+    - planning
+    - prompt-engineering
+    - refactoring
+    - seo
+    - testing
+    - ux
+    - writing
+  workflow:
+    - greenfield
+    - legacy
+    - maintenance
+    - prototype
+
+# Sinônimos proibidos → tag correta a usar. O validador rejeita a chave
+# e sugere o valor.
+tag_synonyms:
+  front-end: frontend
+  front: frontend
+  webfrontend: frontend
+  back-end: backend
+  a11y: accessibility
+  a11y-testing: accessibility
+  e2e-testing: e2e
+  end-to-end: e2e
+  unit-testing: testing
+  ci-cd: deployment
+  cicd: deployment
+  doc: documentation
+  docs: documentation
+  git: version-control
+  github: version-control
+
+status:
+  - id: trial
+    description: Em avaliação. Use por conta e risco. Padrão de toda entrada nova.
+  - id: approved
+    description: Funciona, pode usar. Alguém já usou em projeto real.
+  - id: recommended
+    description: Comece por aqui para este tipo de trabalho.
+  - id: deprecated
+    description: Usávamos, não use mais. Exige campo superseded_by.
+  - id: rejected
+    description: Avaliada e descartada. Exige campo reason.
+
+source:
+  - anthropic
+  - vendor
+  - community
+  - internal
+
+agents:
+  - claude-code
+  - codex
+  - cursor
+  - gemini-cli
+  - copilot
+  - universal
+
+# Renomeações de skill: nome antigo → nome novo.
+# Preenchido conforme skills forem renomeadas, para não quebrar presets e links.
+renames: {}

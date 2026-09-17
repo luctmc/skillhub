@@ -1,0 +1,16 @@
+{
+  "name": "skillhub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Biblioteca e catálogo interno de Agent Skills para Claude Code, Codex, Cursor, Gemini CLI e outros agentes compatíveis.",
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/build.mjs",
+    "check": "npm run build && npm run validate && git diff --exit-code SKILLS-INDEX.md registry.json"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "license": "UNLICENSED"
+}

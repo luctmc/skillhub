@@ -1,0 +1,13 @@
+name: legacy-codebase
+title: Codebase Legado
+description: >
+  Stack para entender, estabilizar e manter um projeto legado.
+owner: "@lucas"
+skills:
+  core:
+    - caveman
+    - security-scan
+    - sonarqube-review
+  optional:
+    - accessibility-audit
+    - sentry-monitoring

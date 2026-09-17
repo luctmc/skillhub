@@ -1,0 +1,13 @@
+name: ai-project
+title: Projeto de IA / Agentes
+description: >
+  Stack para construir agentes, skills ou integrações de IA.
+owner: "@lucas"
+skills:
+  core:
+    - caveman
+    - security-scan
+    - commit-workflow
+  optional:
+    - sentry-monitoring
+    - sonarqube-review
