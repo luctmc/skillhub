@@ -5,7 +5,7 @@
 Gerado automaticamente a partir de `catalog/*.md` e `skills/*/SKILL.md`.
 Não edite este arquivo diretamente — rode `npm run build`.
 
-24 skill(s) ativa(s) · 3 recomendada(s) · 5 preset(s).
+25 skill(s) ativa(s) · 3 recomendada(s) · 5 preset(s).
 
 ---
 
@@ -81,7 +81,9 @@ _Nenhuma entrada ainda._
 
 _Executar trabalho repetitivo — scripts, scaffolding, migrações em lote, workflows._
 
-_Nenhuma entrada ainda._
+| Skill | Categoria | Status | Tipo | Descrição | Tags |
+|---|---|---|---|---|---|
+| 🧪 [website-cloner](catalog/website-cloner.md) | automation | trial | catálogo | Reverse-engineer any website into a clean Next.js codebase by extracting design tokens, component specs and assets, then rebuilding sections with parallel builder agents. | `nextjs` `frontend` `web` `browser` |
 
 #### Design
 
@@ -203,6 +205,7 @@ _Git e GitHub — commits, branches, PRs, changelogs, releases._
 | Skill | Categoria | Status | Tipo | Descrição | Tags |
 |---|---|---|---|---|---|
 | ⭐ [browser-testing](catalog/browser-testing.md) | testing | recommended | catálogo | Browser automation and end-to-end testing via the official Playwright MCP server by Microsoft. | `e2e` `browser` `frontend` `web` |
+| 🧪 [website-cloner](catalog/website-cloner.md) | automation | trial | catálogo | Reverse-engineer any website into a clean Next.js codebase by extracting design tokens, component specs and assets, then rebuilding sections with parallel builder agents. | `nextjs` `frontend` `web` `browser` |
 
 #### codebase
 
@@ -301,6 +304,12 @@ _Git e GitHub — commits, branches, PRs, changelogs, releases._
 |---|---|---|---|---|---|
 | ✅ [angular-skills](catalog/angular-skills.md) | development | approved | catálogo | Official Angular skills for generating idiomatic code, architectural guidance and scaffolding new applications with modern best practices. | `angular` `frontend` |
 
+#### nextjs
+
+| Skill | Categoria | Status | Tipo | Descrição | Tags |
+|---|---|---|---|---|---|
+| 🧪 [website-cloner](catalog/website-cloner.md) | automation | trial | catálogo | Reverse-engineer any website into a clean Next.js codebase by extracting design tokens, component specs and assets, then rebuilding sections with parallel builder agents. | `nextjs` `frontend` `web` `browser` |
+
 #### dotnet
 
 | Skill | Categoria | Status | Tipo | Descrição | Tags |
@@ -345,6 +354,7 @@ _Git e GitHub — commits, branches, PRs, changelogs, releases._
 | 🧪 [terraform-iac](catalog/terraform-iac.md) | devops | trial | catálogo | Integrate with the Terraform ecosystem for Infrastructure as Code automation and validation. | `terraform` `cloud` |
 | ✅ [vercel-deploy](catalog/vercel-deploy.md) | devops | approved | catálogo | Manage Vercel deployments, check build status and inspect runtime logs from within the agent. | `deployment` `cloud` |
 | 🧪 [vibe-motion-skills](catalog/vibe-motion-skills.md) | design | trial | catálogo | Collection of motion and animation demo skills — ruler progress animations, CLI-style typing demos and fisheye video effects. | `motion` `animation` |
+| 🧪 [website-cloner](catalog/website-cloner.md) | automation | trial | catálogo | Reverse-engineer any website into a clean Next.js codebase by extracting design tokens, component specs and assets, then rebuilding sections with parallel builder agents. | `nextjs` `frontend` `web` `browser` |
 
 
 ---

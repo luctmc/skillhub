@@ -586,6 +586,32 @@
     ]
   },
   {
+    "id": "website-cloner",
+    "type": "catalog",
+    "path": "catalog/website-cloner.md",
+    "name": "website-cloner",
+    "description": "Reverse-engineer any website into a clean Next.js codebase by extracting design tokens, component specs and assets, then rebuilding sections with parallel builder agents.",
+    "category": "automation",
+    "tags": [
+      "nextjs",
+      "frontend",
+      "web",
+      "browser"
+    ],
+    "status": "trial",
+    "source": "internal",
+    "repository": "https://github.com/luctmc/skill-website-cloner",
+    "documentation": "https://github.com/luctmc/skill-website-cloner#readme",
+    "license": "MIT",
+    "agents": [],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "clonar visualmente um site existente para um projeto Next.js",
+      "prototipar rápido a partir de um site de referência",
+      "extrair design tokens, assets e specs de componentes de um site"
+    ]
+  },
+  {
     "id": "api-contract-review",
     "type": "skill",
     "path": "skills/api-contract-review/SKILL.md",
