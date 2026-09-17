@@ -27,6 +27,58 @@
     ]
   },
   {
+    "id": "angular-skills",
+    "type": "catalog",
+    "path": "catalog/angular-skills.md",
+    "name": "angular-skills",
+    "description": "Official Angular skills for generating idiomatic code, architectural guidance and scaffolding new applications with modern best practices.",
+    "category": "development",
+    "tags": [
+      "angular",
+      "frontend"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/angular/skills",
+    "license": "unknown",
+    "agents": [
+      "universal"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "criar um componente, serviço ou rota Angular idiomático",
+      "obter orientação sobre signals, forms, SSR ou acessibilidade",
+      "estruturar um projeto Angular novo com o CLI"
+    ]
+  },
+  {
+    "id": "animations-design",
+    "type": "catalog",
+    "path": "catalog/animations-design.md",
+    "name": "animations-design",
+    "description": "Skills for designers and engineers to make better interface and animation decisions, based on real product design experience.",
+    "category": "design",
+    "tags": [
+      "frontend",
+      "ux",
+      "animation"
+    ],
+    "status": "trial",
+    "source": "community",
+    "repository": "https://github.com/emilkowalski/skills",
+    "documentation": "https://animations.dev/",
+    "license": "MIT",
+    "agents": [
+      "universal"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "decidir timing e easing de uma animação de UI",
+      "revisar uma decisão de design antes de implementar",
+      "aprender padrões de interface usados em produtos reais (Vercel, Linear)"
+    ]
+  },
+  {
     "id": "browser-testing",
     "type": "catalog",
     "path": "catalog/browser-testing.md",
@@ -68,7 +120,7 @@
     "status": "recommended",
     "source": "community",
     "repository": "https://github.com/JuliusBrussee/caveman",
-    "documentation": "https://github.com/JuliusBrussee/caveman#readme",
+    "documentation": "https://docs.caveman.so/docs/quickstart",
     "license": "MIT",
     "agents": [
       "claude-code",
@@ -107,6 +159,32 @@
     ]
   },
   {
+    "id": "dotnet-skills",
+    "type": "catalog",
+    "path": "catalog/dotnet-skills.md",
+    "name": "dotnet-skills",
+    "description": "Official .NET team skill collection covering core development, advanced scenarios, data access with Entity Framework and diagnostics.",
+    "category": "development",
+    "tags": [
+      "dotnet",
+      "backend"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/dotnet/skills",
+    "documentation": "https://dotnet.github.io/skills/",
+    "license": "MIT",
+    "agents": [
+      "universal"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "desenvolver ou revisar código .NET/C#",
+      "trabalhar com Entity Framework e acesso a dados",
+      "investigar performance ou debugar um incidente em app .NET"
+    ]
+  },
+  {
     "id": "figma-integration",
     "type": "catalog",
     "path": "catalog/figma-integration.md",
@@ -133,6 +211,32 @@
     ]
   },
   {
+    "id": "google-cloud-skills",
+    "type": "catalog",
+    "path": "catalog/google-cloud-skills.md",
+    "name": "google-cloud-skills",
+    "description": "Official Google skill collection for Google Cloud — authentication, foundation setup, solution architecture and multi-agent deployment.",
+    "category": "devops",
+    "tags": [
+      "cloud",
+      "ai"
+    ],
+    "status": "approved",
+    "source": "vendor",
+    "repository": "https://github.com/google/skills",
+    "documentation": "https://github.com/google/skills#readme",
+    "license": "Apache-2.0",
+    "agents": [
+      "universal"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "configurar autenticação e fundação de um projeto Google Cloud",
+      "desenhar uma arquitetura de solução em GCP",
+      "fazer deploy de agentes de IA na infraestrutura do Google"
+    ]
+  },
+  {
     "id": "linear-issues",
     "type": "catalog",
     "path": "catalog/linear-issues.md",
@@ -155,6 +259,31 @@
       "criar uma issue a partir de um bug encontrado durante o desenvolvimento",
       "atualizar o status de uma tarefa ao concluir um PR",
       "linkar um commit a um item do board"
+    ]
+  },
+  {
+    "id": "liquid-glass-ui",
+    "type": "catalog",
+    "path": "catalog/liquid-glass-ui.md",
+    "name": "liquid-glass-ui",
+    "description": "Claude Code skill for iOS 26 Liquid Glass — API references, code generation, and migration guides for the Liquid Glass design language.",
+    "category": "design",
+    "tags": [
+      "mobile",
+      "animation"
+    ],
+    "status": "trial",
+    "source": "community",
+    "repository": "https://github.com/2dubu/liquid-glass",
+    "license": "MIT",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "implementar efeitos de UI no estilo Liquid Glass do iOS 26",
+      "migrar uma interface existente para o novo design language",
+      "consultar referência de API do Liquid Glass"
     ]
   },
   {
@@ -429,6 +558,31 @@
       "verificar status de um deploy no Vercel",
       "investigar erro de build",
       "consultar logs de runtime de uma função serverless"
+    ]
+  },
+  {
+    "id": "vibe-motion-skills",
+    "type": "catalog",
+    "path": "catalog/vibe-motion-skills.md",
+    "name": "vibe-motion-skills",
+    "description": "Collection of motion and animation demo skills — ruler progress animations, CLI-style typing demos and fisheye video effects.",
+    "category": "design",
+    "tags": [
+      "motion",
+      "animation"
+    ],
+    "status": "trial",
+    "source": "community",
+    "repository": "https://github.com/vibe-motion/skills",
+    "license": "unknown",
+    "agents": [
+      "claude-code"
+    ],
+    "reviewed": "2026-09-17",
+    "use_when": [
+      "gerar uma animação de progresso estilo régua para demo",
+      "criar um vídeo de demonstração com efeito de digitação estilo CLI",
+      "produzir efeito de vídeo com distorção fisheye para apresentação"
     ]
   },
   {

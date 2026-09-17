@@ -6,7 +6,7 @@ tags: [codebase, onboarding, writing]
 status: recommended
 source: community
 repository: https://github.com/JuliusBrussee/caveman
-documentation: https://github.com/JuliusBrussee/caveman#readme
+documentation: https://docs.caveman.so/docs/quickstart
 license: MIT
 agents: [claude-code, codex, gemini-cli]
 reviewed: 2026-09-17
@@ -27,7 +27,7 @@ use_when:
 ## Installation
 
 ```bash
-npx skills add caveman
+npx skills add JuliusBrussee/caveman
 ```
 
 ## Notes
