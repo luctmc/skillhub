@@ -5,7 +5,7 @@
 Gerado automaticamente a partir de `catalog/*.md` e `skills/*/SKILL.md`.
 Não edite este arquivo diretamente — rode `npm run build`.
 
-25 skill(s) ativa(s) · 3 recomendada(s) · 5 preset(s).
+26 skill(s) ativa(s) · 3 recomendada(s) · 5 preset(s).
 
 ---
 
@@ -95,6 +95,7 @@ _UI/UX, design systems, visual, motion, branding, protótipos._
 | ✅ [figma-integration](catalog/figma-integration.md) | design | approved | catálogo | Access Figma design files, extract component information and sync design tokens with code. | `frontend` `ux` |
 | 🧪 [liquid-glass-ui](catalog/liquid-glass-ui.md) | design | trial | catálogo | Claude Code skill for iOS 26 Liquid Glass — API references, code generation, and migration guides for the Liquid Glass design language. | `mobile` `animation` |
 | 🧪 [motion-design](catalog/motion-design.md) | design | trial | catálogo | Apply universal motion design principles — timing, easing, choreography — adapted from animation fundamentals for UI. | `motion` `animation` `frontend` `accessibility` |
+| 🧪 [open-design](catalog/open-design.md) | design | trial | catálogo | Local-first desktop app that turns your coding agent into a design engine — prototypes, decks, dashboards, images and video, driven by a shared DESIGN.md design system. | `frontend` `ux` `prototype` |
 | 🧪 [superdesign](catalog/superdesign.md) | design | trial | catálogo | Design or redesign frontend UI and marketing graphics using an infinite canvas workflow. | `frontend` `prototype` |
 | 🧪 [vibe-motion-skills](catalog/vibe-motion-skills.md) | design | trial | catálogo | Collection of motion and animation demo skills — ruler progress animations, CLI-style typing demos and fisheye video effects. | `motion` `animation` |
 
@@ -285,6 +286,7 @@ _Git e GitHub — commits, branches, PRs, changelogs, releases._
 |---|---|---|---|---|---|
 | 🧪 [animations-design](catalog/animations-design.md) | design | trial | catálogo | Skills for designers and engineers to make better interface and animation decisions, based on real product design experience. | `frontend` `ux` `animation` |
 | ✅ [figma-integration](catalog/figma-integration.md) | design | approved | catálogo | Access Figma design files, extract component information and sync design tokens with code. | `frontend` `ux` |
+| 🧪 [open-design](catalog/open-design.md) | design | trial | catálogo | Local-first desktop app that turns your coding agent into a design engine — prototypes, decks, dashboards, images and video, driven by a shared DESIGN.md design system. | `frontend` `ux` `prototype` |
 
 #### writing
 
@@ -344,6 +346,7 @@ _Git e GitHub — commits, branches, PRs, changelogs, releases._
 | 🧪 [liquid-glass-ui](catalog/liquid-glass-ui.md) | design | trial | catálogo | Claude Code skill for iOS 26 Liquid Glass — API references, code generation, and migration guides for the Liquid Glass design language. | `mobile` `animation` |
 | 🧪 [motion-design](catalog/motion-design.md) | design | trial | catálogo | Apply universal motion design principles — timing, easing, choreography — adapted from animation fundamentals for UI. | `motion` `animation` `frontend` `accessibility` |
 | ✅ [notion-workspace](catalog/notion-workspace.md) | productivity | approved | catálogo | Search Notion pages, create and update documents, and manage workspace content from the agent. | `writing` |
+| 🧪 [open-design](catalog/open-design.md) | design | trial | catálogo | Local-first desktop app that turns your coding agent into a design engine — prototypes, decks, dashboards, images and video, driven by a shared DESIGN.md design system. | `frontend` `ux` `prototype` |
 | ✅ [postman-api](catalog/postman-api.md) | testing | approved | catálogo | Full API lifecycle management: sync collections, generate clients, run test suites against an API. | `api` `backend` |
 | ✅ [security-scan](catalog/security-scan.md) | security | approved | catálogo | Deep vulnerability scanning of your own code with findings challenged before being reported, plus verified patch suggestions. | `code-review` |
 | ✅ [sentry-monitoring](catalog/sentry-monitoring.md) | devops | approved | catálogo | Access Sentry error reports, analyze stack traces and correlate incidents with recent code changes. | `monitoring` `debugging` |
